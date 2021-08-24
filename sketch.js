@@ -15,7 +15,7 @@ function preload(){
   diamondsImg = loadImage("diamonds.png");
   jwelleryImg = loadImage("jwell.png");
   swordImg = loadImage("sword.png");
-  endImg =loadAnimation("gameOver.png");
+  endImg =loadAnimation("fimdeJogo.png");
 }
 
 function setup(){
@@ -96,7 +96,7 @@ function draw() {
   drawSprites();
   textSize(20);
   fill(255);
-  text("Treasure: "+ treasureCollection,150,30);
+  text("Tesouro: "+ treasureCollection,150,30);
   }
 
 }
